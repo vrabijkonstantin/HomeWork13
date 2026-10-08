@@ -50,7 +50,7 @@ public class Order {
                     return false;
                 }
             } else if (!basket[i].equals(other.basket[i])) {
-                break;
+                return false;
             }
             if (basket[i] != null && other.basket[i] == null) {
                 return false;
